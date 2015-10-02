@@ -1,6 +1,6 @@
-update=Fre 02 Okt 2015 16:05:38 CEST
+update=Fre 02 Okt 2015 16:39:29 CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=../kicad-particle;lib
@@ -19,14 +19,16 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=photon-sensor-board.net
 UseCmpFile=1
 PadDrill="    1.020000"
 PadDrillOvalY="    1.020000"
-PadSizeH="    1.800000"
-PadSizeV="    1.800000"
+PadSizeH="    1.900000"
+PadSizeV="    1.900000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -44,5 +46,4 @@ LibName1=pin_array
 LibName2=particle-boards
 LibName3=oshw-logos
 LibName4=resistor
-[general]
-version=1
+LibName5=connect
