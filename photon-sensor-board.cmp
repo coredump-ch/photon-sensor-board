@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fre 02 Okt 2015 15:34:51 CEST
+
+BeginCmp
+TimeStamp = /560E63B9;
+Reference = R1;
+ValeurCmp = 4.7kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /560E663B;
+Reference = U1;
+ValeurCmp = PHOTON;
+IdModule  = PHOTON;
+EndCmp
+
+BeginCmp
+TimeStamp = /560E62F3;
+Reference = U2;
+ValeurCmp = DS18B20;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+EndListe
