@@ -1,8 +1,6 @@
-update=Fre 02 Okt 2015 15:42:28 CEST
+update=Fre 02 Okt 2015 16:05:38 CEST
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=../kicad-particle;lib
@@ -46,3 +44,5 @@ LibName1=pin_array
 LibName2=particle-boards
 LibName3=oshw-logos
 LibName4=resistor
+[general]
+version=1
