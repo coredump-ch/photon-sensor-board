@@ -53,8 +53,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.9 1.9)
-    (pad_drill 1.02)
+    (pad_size 2.3 2.3)
+    (pad_drill 2.1)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFCFFBF)
@@ -140,6 +140,34 @@
     (add_net "Net-(U1-Pad7)")
     (add_net "Net-(U1-Pad8)")
     (add_net "Net-(U1-Pad9)")
+  )
+
+  (module 1pin (layer F.Cu) (tedit 56106687) (tstamp 560EA90C)
+    (at 112 136)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer Dwgs.User) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at -0.24 3.192) (layer Cmts.User) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module 1pin (layer F.Cu) (tedit 56106665) (tstamp 560EA8C1)
+    (at 137 98)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 560E7C44) (tstamp 560E75DB)
@@ -353,36 +381,6 @@
       (net 3 "Net-(R1-Pad2)"))
     (pad 13 thru_hole circle (at 8.89 12.7) (size 1.9 1.9) (drill 1.02) (layers *.Cu *.Mask F.SilkS)
       (net 23 "Net-(U1-Pad13)"))
-  )
-
-  (module 1pin (layer F.Cu) (tedit 560E981B) (tstamp 560EA8C1)
-    (at 137 98)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path 1pin)
-    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module 1pin (layer F.Cu) (tedit 561063B5) (tstamp 560EA90C)
-    (at 112 136)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path 1pin)
-    (fp_text reference 1PIN (at 0 -3.048) (layer Dwgs.User) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (fp_text value P*** (at -0.24 3.192) (layer Cmts.User) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_text "Photon Sensor Board\nv1.0 2015" (at 111.76 122.428 90) (layer F.Mask)
