@@ -4,7 +4,7 @@ LIBS:device
 LIBS:particle-boards
 LIBS:sensors
 LIBS:photon-sensor-board-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,47 +92,6 @@ F 3 "" H 4850 3350 60  0000 C CNN
 	1    4850 3350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5800 2650 5800 3200
-Wire Wire Line
-	5800 3200 4600 3200
-Wire Wire Line
-	4600 3200 4600 3600
-Wire Wire Line
-	4600 3500 4900 3500
-Wire Wire Line
-	6100 2650 6600 2650
-Wire Wire Line
-	6300 2650 6300 1800
-Wire Wire Line
-	6300 1800 5600 1800
-Wire Wire Line
-	5600 1800 5600 3100
-Connection ~ 6300 2650
-Wire Wire Line
-	5950 3150 6600 3150
-Wire Wire Line
-	5950 3150 5950 2650
-Wire Wire Line
-	6600 3150 6600 4600
-Connection ~ 6600 3150
-Wire Wire Line
-	6600 4600 6500 4600
-Connection ~ 4600 3500
-Wire Wire Line
-	5600 3100 4350 3100
-Wire Wire Line
-	4850 3350 4900 3350
-Wire Wire Line
-	4900 3350 4900 3400
-Wire Wire Line
-	4350 3100 4350 3750
-Wire Wire Line
-	4350 3750 4750 3750
-Wire Wire Line
-	4750 3750 4750 3600
-Wire Wire Line
-	4750 3600 4900 3600
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 560E6E76
@@ -144,4 +103,45 @@ F 3 "" H 4600 3500 60  0000 C CNN
 	1    4600 3500
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4750 3600 4900 3600
+Wire Wire Line
+	4750 3750 4750 3600
+Wire Wire Line
+	4350 3750 4750 3750
+Wire Wire Line
+	4350 3100 4350 3750
+Wire Wire Line
+	4900 3350 4900 3400
+Wire Wire Line
+	4850 3350 4900 3350
+Wire Wire Line
+	5600 3100 4350 3100
+Connection ~ 4600 3500
+Wire Wire Line
+	6600 4600 6500 4600
+Connection ~ 6600 3150
+Wire Wire Line
+	6600 3150 6600 4600
+Wire Wire Line
+	5950 3150 5950 2650
+Wire Wire Line
+	5950 3150 6600 3150
+Connection ~ 6300 2650
+Wire Wire Line
+	5600 1800 5600 3100
+Wire Wire Line
+	6300 1800 5600 1800
+Wire Wire Line
+	6300 2650 6300 1800
+Wire Wire Line
+	6100 2650 6600 2650
+Wire Wire Line
+	4600 3500 4900 3500
+Wire Wire Line
+	4600 3200 4600 3600
+Wire Wire Line
+	5800 3200 4600 3200
+Wire Wire Line
+	5800 2650 5800 3200
 $EndSCHEMATC
