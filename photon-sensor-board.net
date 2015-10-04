@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/danilo/Projects/photon-sensor-board/photon-sensor-board.sch)
-    (date "Sun 04 Oct 2015 01:20:29 AM CEST")
+    (date "Sun 04 Oct 2015 03:02:54 AM CEST")
     (tool "Eeschema (2015-10-02 BZR 6241)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -31,6 +31,20 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 560E63B9)))
   (libparts
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib sensors) (part DS18B20)
       (fields
         (field (name Reference) U)
@@ -66,26 +80,12 @@
         (pin (num 20) (name D7) (type BiDi))
         (pin (num 22) (name VBAT) (type power_in))
         (pin (num 23) (name RST) (type input))
-        (pin (num 24) (name 3.3V) (type power_out))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 24) (name 3.3V) (type power_out)))))
   (libraries
-    (library (logical sensors)
-      (uri /home/danilo/Projects/photon-sensor-board/lib/sensors.lib))
     (library (logical particle-boards)
       (uri /home/danilo/Projects/kicad-particle/particle-boards.lib))
+    (library (logical sensors)
+      (uri /home/danilo/Projects/photon-sensor-board/lib/sensors.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib)))
   (nets
@@ -100,8 +100,8 @@
       (node (ref U1) (pin 1)))
     (net (code 5) (name "Net-(U1-Pad4)")
       (node (ref U1) (pin 4)))
-    (net (code 6) (name "Net-(U1-Pad13)")
-      (node (ref U1) (pin 13)))
+    (net (code 6) (name "Net-(U1-Pad14)")
+      (node (ref U1) (pin 14)))
     (net (code 7) (name "Net-(U1-Pad15)")
       (node (ref U1) (pin 15)))
     (net (code 8) (name "Net-(U1-Pad16)")
@@ -121,7 +121,7 @@
     (net (code 14) (name "Net-(U1-Pad12)")
       (node (ref U1) (pin 12)))
     (net (code 15) (name "Net-(R1-Pad2)")
-      (node (ref U1) (pin 14))
+      (node (ref U1) (pin 13))
       (node (ref R1) (pin 2))
       (node (ref U2) (pin 2)))
     (net (code 16) (name "Net-(U1-Pad10)")
