@@ -2,4 +2,5 @@
   (lib (name particle)(type KiCad)(uri /home/danilo/Projects/particle.pretty)(options "")(descr ""))
   (lib (name Resistors_ThroughHole)(type KiCad)(uri /home/danilo/Projects/kicad-footprints/Resistors_ThroughHole.pretty)(options "")(descr ""))
   (lib (name Mounting_Holes)(type KiCad)(uri /home/danilo/Projects/kicad-footprints/Mounting_Holes.pretty)(options "")(descr ""))
+  (lib (name oshw)(type KiCad)(uri /home/danilo/Projects/kicad-footprints/oshw.pretty)(options "")(descr ""))
 )
