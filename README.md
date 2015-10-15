@@ -9,6 +9,12 @@ https://github.com/coredump-ch/kicad-particle
 
 ![screenshot](screenshot.png)
 
+## PCB
+
+Poorly self etched PCB:
+
+![pcb](pcb.jpg)
+
 ## License
 
 MIT
