@@ -30,7 +30,8 @@ Poorly self etched PCB:
 
 - Solder 2x12 pin headers to the photon pins.
 - Solder the resistor onto the board.
-- Either solder a DS18B20 sensor directly onto the board, or connect it with a cable.
+- Solder a DS18B20 sensor to the board using a cable / wire. Make sure it's long
+  enough (<30cm) to prevent self-heating of the sensor.
   On the screenshot of the PCB above, the bottom pin is GND (blue), the middle
   one is Data (yellow) and the top pin is VDD (red). You can find the pin
   numbering of the sensor [here](http://mikroshop.ch/?gruppe=6&artikel=30).
