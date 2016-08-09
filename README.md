@@ -37,6 +37,11 @@ Poorly self etched PCB:
   numbering of the sensor [here](http://mikroshop.ch/?gruppe=6&artikel=30).
 
 
+## Firmware
+
+https://github.com/coredump-ch/particle-ds18b20-firmware
+
+
 ## License
 
 MIT
